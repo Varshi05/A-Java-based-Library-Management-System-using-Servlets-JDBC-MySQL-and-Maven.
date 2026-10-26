@@ -1,0 +1,25 @@
+# Build output
+target/
+*.war
+*.class
+
+# Secrets and local configuration (NEVER commit)
+src/main/resources/db.properties
+*.env
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.classpath
+.project
+.settings/
+.idea/
+
+# Tomcat installations
+apache-tomcat-*/
+
+# OS files
+Thumbs.db
+.DS_Store
